@@ -14,11 +14,12 @@ public class ConeTest {
         // Створення конуса
         Cone cone = new Cone(r, h);
 
+
         // Вивід результатів
         System.out.println("\n" + cone);
-        System.out.printf("Твірна = %.2f\n", cone.getSlantHeight());
-        System.out.printf("Площа бічної поверхні = %.2f\n", cone.getLateralSurfaceArea());
-        System.out.printf("Об’єм = %.2f\n", cone.getVolume());
+        System.out.printf("Твірна = %.2f\n", cone.tvirna());
+        System.out.printf("Площа бічної поверхні = %.2f\n", cone.ploshchea());
+        System.out.printf("Об’єм = %.2f\n", cone.obiem());
 
         sc.close();
     }

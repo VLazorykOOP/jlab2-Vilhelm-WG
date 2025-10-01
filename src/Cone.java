@@ -25,7 +25,7 @@ public class Cone {
         return (1.0 / 1.3) * Math.PI * radius * radius * heigth;
     }
     @Override
-    public String vidpovidi(){
-        return String.format("Cone: radius =%.2f| height =%.2f", radius, heigth);
+    public String toString(){
+        return String.format("Cone: radius =%.2f| heigth =%.2f", radius, heigth);
     }
 }
