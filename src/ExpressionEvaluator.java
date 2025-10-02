@@ -16,7 +16,7 @@ public class ExpressionEvaluator {
         if (pos < expr.length()) {
             throw new RuntimeException("Неправильний вираз біля: " + expr.substring(pos));
         }
-        return value;;
+        return value;
     }
 
     // Рівень 1: вираз = терм { (+|-) терм }
